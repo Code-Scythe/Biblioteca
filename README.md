@@ -62,11 +62,11 @@
 POST http://localhost:8080/clientes
 Content-Type: application/json
 {
-    "nome": "João Silva",
-    "cpf": "123.456.789-00",
-    "telefone": "+55 (11) 91234-5678",
-    "email": "joao.silva@example.com",
-    "apto": true
+    "nome": "João Silva",                  // String (máx. 255 caracteres)
+    "cpf": "123.456.789-00",               // String no formato ###.###.###-##
+    "telefone": "+55 (11) 91234-5678",     // String no formato +## (##) #####-####
+    "email": "joao.silva@example.com",     // String (máx. 255 caracteres, único)
+    "apto": true                           // Boolean
 }
 </pre>
 
