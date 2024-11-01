@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <h1>📚 • API para Biblioteca</h1>
-        <p>Este projeto consiste em uma API para gerenciamento de biblioteca, permitindo operações CRUD para livros, clientes, empréstimos e exemplares, utilizando JPA para interação com o banco de dados.</p>
+        <p>Este projeto consiste em uma API para gerenciamento de biblioteca, permitindo operações CRUD para clientes, livros, empréstimos e exemplares, utilizando JPA para interação com o banco de dados.</p>
 
 <br><br><br>
 
@@ -23,7 +23,7 @@
 
 <br><br><br>
 
-<h2>⚙️ • Configuração</h2>
+<h2>⚙️ • Configuração do Projeto</h2>
         <ol>
             <li>Verifique se o <strong>IntelliJ IDEA</strong> está instalado.</li>
             <li>Certifique-se de que o <strong>Maven</strong> está configurado.</li>
@@ -33,8 +33,62 @@
 
 <br><br><br>
 
-<h2>🚀 • Execução</h2>
-        <p>Para iniciar a API, execute a classe principal do projeto. As rotas para gerenciamento de livros, clientes, empréstimos e exemplares estarão disponíveis conforme definido nos controllers.</p>
+<h2>🚀 • Iniciar a API</h2>
+        <p>Para iniciar a API, execute a classe principal do projeto. As rotas para gerenciamento de clientes, livros, empréstimos e exemplares estarão disponíveis conforme definido nos controllers.</p>
+
+<br><br><br>
+
+<h2>🔍 • Endpoints e Operações CRUD</h2>
+        <p>Abaixo estão os exemplos de uso dos endpoints para realizar operações CRUD no recurso <strong>Clientes</strong>. Utilize o <strong>Postman</strong> para enviar as requisições no formato <strong>JSON</strong> conforme descrito:</p>
+        
+<ul>
+            <li><code>/clientes</code> - Gerencia informações dos clientes</li>
+        </ul>
+
+<br>
+
+<h4>1. Listar Todos os Clientes</h4>
+        <pre>GET http://localhost:8080/clientes</pre>
+
+<br>
+
+<h4>2. Consultar Cliente por ID</h4>
+        <pre>GET http://localhost:8080/clientes/{id}</pre>
+
+<br>
+
+<h4>3. Criar Novo Cliente</h4>
+        <pre>
+POST http://localhost:8080/clientes
+Content-Type: application/json
+{
+    "nome": "João Silva",
+    "cpf": "123.456.789-00",
+    "telefone": "+55 (11) 91234-5678",
+    "email": "joao.silva@example.com",
+    "apto": true
+}
+</pre>
+
+<br>
+
+<h4>4. Atualizar Cliente</h4>
+        <pre>
+PUT http://localhost:8080/clientes/{id}
+Content-Type: application/json
+{
+    "nome": "João Silva Atualizado",
+    "cpf": "123.456.789-00",
+    "telefone": "+55 (11) 98888-8888",
+    "email": "joao.silva.atualizado@example.com",
+    "apto": false
+}
+</pre>
+
+<br>
+
+<h4>5. Deletar Cliente</h4>
+        <pre>DELETE http://localhost:8080/clientes/{id}</pre>
 
 <br><br><br>
 
