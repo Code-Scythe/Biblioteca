@@ -39,11 +39,19 @@
 <br><br><br>
 
 <h2>🔍 • Endpoints e Operações CRUD</h2>
-        <p>Abaixo estão os exemplos de uso dos endpoints para realizar operações CRUD no recurso <strong>Clientes</strong>. Utilize o <strong>Postman</strong> para enviar as requisições no formato <strong>JSON</strong> conforme descrito:</p>
-        
+<p>Abaixo estão os exemplos de uso dos endpoints para realizar operações CRUD nos recursos <strong>Clientes</strong>, <strong>Livros</strong>, <strong>Exemplares</strong> e <strong>Empréstimos</strong>. Utilize o <strong>Postman</strong> para enviar as requisições no formato <strong>JSON</strong> conforme descrito:</p>
+
 <ul>
-            <li><code>/clientes</code> - Gerencia informações dos clientes</li>
-        </ul>
+    <li><code>/clientes</code> - Gerencia informações dos clientes, como cadastro, atualização, consulta e exclusão.</li>
+    <li><code>/livros</code> - Gerencia o acervo de livros da biblioteca, permitindo cadastrar, atualizar, consultar e excluir informações sobre livros.</li>
+    <li><code>/exemplares</code> - Gerencia os exemplares disponíveis de cada livro, registrando informações sobre cada cópia específica.</li>
+    <li><code>/emprestimos</code> - Gerencia os empréstimos de livros aos clientes, permitindo registrar novos empréstimos, atualizar, consultar e finalizar empréstimos.</li>
+</ul>
+
+<br>
+
+<h3>💻 • Exemplo de Requisições para Clientes</h3>
+<p>Abaixo está um exemplo de uso dos endpoints para realizar operações CRUD no recurso <strong>Clientes</strong>:</p>
 
 <br>
 
