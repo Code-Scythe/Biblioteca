@@ -1,4 +1,4 @@
-package com.example.biblioteca.exceptions;
+package com.example.biblioteca.exceptions
 
 public class ClienteNaoAptoException extends RuntimeException {
 
