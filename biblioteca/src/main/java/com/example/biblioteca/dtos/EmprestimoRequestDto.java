@@ -1,4 +1,4 @@
-package com.example.biblioteca.dtos;
+package com.example.biblioteca.dtos
 
 import com.example.biblioteca.model.Emprestimo;
 import com.example.biblioteca.repositories.ExemplarRepository;
