@@ -1,4 +1,4 @@
-package com.example.biblioteca.dtos;
+package com.example.biblioteca.dtos
 
 import com.example.biblioteca.model.Cliente;
 
