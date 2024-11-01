@@ -1,4 +1,4 @@
-package com.example.biblioteca.configs
+package com.example.biblioteca.configs;
 
 import com.example.biblioteca.exceptions.*;
 import jakarta.persistence.EntityNotFoundException;
