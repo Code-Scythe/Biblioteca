@@ -1,4 +1,4 @@
-package com.example.biblioteca.enums
+package com.example.biblioteca.enums;
 
 public enum Categoria {
     FICCAO,
