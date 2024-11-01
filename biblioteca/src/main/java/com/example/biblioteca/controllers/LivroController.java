@@ -1,4 +1,4 @@
-package com.example.biblioteca.controllers
+package com.example.biblioteca.controllers;
 
 import com.example.biblioteca.dtos.ClienteResponseDto;
 import com.example.biblioteca.dtos.LivroRequestDto;
