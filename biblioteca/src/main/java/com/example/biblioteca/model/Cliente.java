@@ -1,4 +1,4 @@
-package com.example.biblioteca.model
+package com.example.biblioteca.model;
 
 import jakarta.persistence.*;
 
